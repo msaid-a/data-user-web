@@ -1,6 +1,6 @@
 import * as React from "react";
 import { ChakraProvider } from "@chakra-ui/react";
-const Main = React.lazy(() => import("./View/Main/Index"));
+const Main = React.lazy(() => import("./View/Main"));
 
 export const App = () => (
   <ChakraProvider>

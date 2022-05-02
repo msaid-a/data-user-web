@@ -149,10 +149,10 @@ const Main = () => {
         </Box>
         <Box w="250px" h="10">
           <Text>Gender</Text>
-          <Select value={gender} onChange={handleChangeGender}>
-            <option value="">all</option>
-            <option value="male">Male</option>
-            <option value="female">Female</option>
+          <Select value={gender} onChange={handleChangeGender} data-testid="gender-select">
+            <option data-testid="select-option" value="">all</option>
+            <option data-testid="select-option" value="male">Male</option>
+            <option data-testid="select-option" value="female">Female</option>
           </Select>
         </Box>
         <Box w="180px" h="10">
