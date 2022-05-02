@@ -1,5 +1,5 @@
-import Main from "..";
-import TableView from "../../../Component/Table";
+import Main from "../Main";
+import TableView from "../../Component/Table";
 import { ChakraProvider } from "@chakra-ui/react";
 import { render, fireEvent, screen } from "@testing-library/react";
 

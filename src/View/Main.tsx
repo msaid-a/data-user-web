@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import api from "../../api";
+import api from "../api";
 import {
   Box,
   Text,
@@ -12,7 +12,7 @@ import {
   Flex,
 } from "@chakra-ui/react";
 import { FaSearch } from "react-icons/fa";
-import TableView from "../../Component/Table";
+import TableView from "../Component/Table";
 import moment from "moment";
 
 const Main = () => {
